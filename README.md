@@ -1,2 +1,2 @@
 # alisonmitchell.github.io
-Github website
+Portfolio website powered by Bootstrap and GitHub Pages.
