@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script> 
+
+	<title>Alison Mitchell - Web Design & Development, Data Science & Machine Learning</title>
+</head>
+<body id="home">
+	<!-- .cd-intro-block -->
+	<div class="cd-intro-block">
+		<div class="cd-content-wrapper">
+			<h1 class="animated bounceInDown"><img class="img-logo animated bounceInDown" src="images/am-logo.svg" alt="logo" />alisonmitchell.me</h1>
+			<h2 class="animated bounceInDown">Alison Mitchell</h2>
+			<h3 class="animated bounceInDown">WEB DESIGN &amp; DEVELOPMENT</h3>
+			<h3 class="animated bounceInDown">DATA ANALYSIS &amp; MACHINE LEARNING</h3>
+			
+			<a href="skills" aria-label="My SKills" tabindex="0" class='cd-btn animated bounceInDown' data-action="show-projects">MY SKILLS</a>
+		</div>
+	</div> <!-- .cd-intro-block -->
+
+	<div class="cd-projects-wrapper">
+	
+		  <div class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <img src="images/am-logo.svg" alt="logo" />
+                    <div class="navbar-brand"><a href="index.html" aria-label="Home">alisonmitchell.me</a></div>
+                </div>
+                <ul class="navbar-menu">
+				<li><a href="experience.html" class="navbar-button"><span>Experience</span></a></li>
+				<li><a href="skills.html" class="navbar-button"><span>Skills</span></a></li>
+				<li><a href="websites.html" class="navbar-button"><span>Websites</span></a></li>
+				<li><a href="python.html" class="navbar-button"><span>Python</span></a></li>
+				<li><a href="data-science.html" class="navbar-button"><span>Data Science</span></a></li>
+				<li><a href="https://www.linkedin.com/in/alison-l-mitchell/" aria-label="LinkedIn" class="social-icon" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle-thin fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x"></i>
+				  </span></a></li>
+				<li><a href="https://github.com/alisonmitchell" aria-label="GitHub" class="social-icon" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle-thin fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x"></i>
+				  </span></a></li>
+				<li><a href="#menu" aria-label="Open menu" class="navbar-button-menu" onclick="openNav()"><i class="fa fa-navicon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+		
+		<div id="mySidenav" class="sidenav">
+			<a href="#close" aria-label="Close" class="closebtn" onclick="closeNav()"><i class="fa fa-close"></i></a>
+			<a href="index.html#home">Home</a>
+			<a href="experience.html">Experience</a>
+			<a href="skills.html">Skills</a>
+			<a href="websites.html">Websites</a>
+			<a href="python.html">Python</a>
+			<a href="data-science.html">Data&nbsp;Science</a>
+			<a href="https://www.linkedin.com/in/alison-l-mitchell/" target="_blank">LinkedIn</a>
+			<a href="https://github.com/alisonmitchell" target="_blank">GitHub</a>
+		  </div>
+		
+		  <a href="#close-projects" tabindex="0" aria-label="Close projects" class="cd-btn close-btn" data-action="close-projects">CLOSE</a>
+		
+<ul class="cd-slider">
+			<li class="current">	
+			  <div class="container-project">
+				<img src="images/skills/wordpress.jpg" alt="WordPress interface">
+				<div class="container-overlay">
+				<a href="#project-1" aria-label="Link to project 1"><i class="fa fa-search"></i></a>
+				</div>
+			  </div>
+					<div class="project-info">
+						<h2>Content</h2>
+						<p>Creation and management.</p>
+					</div>	
+				
+			</li>
+			
+			<li>
+				<div class="container-project">
+				 <img src="images/skills/ux-mobile.jpg" alt="UX design for mobile">
+				 <div class="container-overlay">
+				<a href="#project-2" aria-label="Link to project 2"><i class="fa fa-search"></i></a>
+				</div>
+			  </div>
+					<div class="project-info">
+						<h2>Design</h2>
+						<p>UX/UI, responsive web design.</p>
+					</div>
+				
+			</li>
+
+			<li>
+				<div class="container-project">
+				  	<img src="images/skills/computer-code.jpg" alt="Code editor">
+					<div class="container-overlay">
+				<a href="#project-3" aria-label="Link to project 3"><i class="fa fa-search"></i></a>
+				</div>
+			  </div>
+					<div class="project-info">
+						<h2>Development</h2>
+						<p>Build, test, deploy and maintain.</p>
+					</div>
+				</li>
+				
+			<li>
+				<div class="container-project">
+				  	<img src="images/skills/web-design.jpg" alt="Web design book and laptop">
+					<div class="container-overlay">
+				<a href="#project-4" aria-label="Link to project 4"><i class="fa fa-search"></i></a>
+				</div>
+			   </div>
+					<div class="project-info">
+						<h2>Technologies</h2>
+						<p>Tools, languages, frameworks, libraries.</p>
+					</div>
+				</li>
+</ul>
+
+		<ul class="cd-slider-navigation cd-img-replace">
+			<li><a class="prev inactive">Prev</a></li>
+			<li><a class="next">Next</a></li>
+		</ul> <!-- .cd-slider-navigation -->
+	</div> <!-- .cd-projects-wrapper -->
+
+	<div class="cd-project-content" id="project-1">
+		<div>
+			<h1>Content</h1>
+			<h2>Creation and management.</h2>
+			
+			<img class="img-responsive" src="images/skills/statistics.jpg" alt="Graphs and charts">
+			
+			<p>
+				I have been responsible for content creation and management, necessarily liaising with in-house departments, stakeholders and third parties regarding text, image, audio and video assets.</p>
+				
+			<p>I also have experience of writing, editing and proofreading technical and promotional material, specifications, user manuals, journals, abstracts and press releases.
+			</p>
+			
+					<h3>Skills include:</h3>
+					<ul>
+						<li>data and asset management</li>
+						<li>picture research and editing</li>
+						<li>video conversion and embedding</li>
+						<li>audio recording and editing</li>
+						<li>technical, educational and promotional copy</li>
+						<li>analytics for advertising & user behaviour</li>
+						<li>data visualisation</li>
+					</ul>
+			
+		</div>
+		<a href="#close-project-1" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+		<div class="cd-project-content" id="project-2">
+		<div>
+			<h1>Design</h1>
+			<h2>UX/UI, responsive web design.</h2>
+			<img class="img-responsive" src="images/skills/responsive.jpg" alt="Responsive design icon">
+			
+			<p>
+				I have experience of website design involving initial site analysis and identifying requirements in consultation with clients and content providers, scheduling and co-ordinating multiple projects simultaneously from data acquisition through to publication.</p>
+				<p>I have experience of many software packages including the Adobe Creative Suite/Cloud, and was responsible for the design of graphical banners and animations for advertisers, creation of in-house logos and conversion of video footage into web formats. </p>
+			
+
+					<h3>Skills include:</h3>
+					<ul>
+						<li>UX/UI design</li>
+						<li>mockups, wireframes and prototypes</li>
+						<li>graphics, icons and logos</li>
+						<li>graphs, charts & infographics</li>
+						<li>banner adverts and animations</li>
+						<li>responsive design</li>
+					</ul>
+
+
+		</div>
+		<a href="#close-project-2" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+	<div class="cd-project-content" id="project-3">
+		<div>
+			<h1>Development</h1>
+			<h2>Build, test, deploy and maintain.</h2>
+			<img class="img-responsive" src="images/skills/codebrackets.jpg" alt="Code brackets icon">
+			<p>
+				I have web development skills in HTML5/CSS3, JavaScript, jQuery, Bootstrap and PHP/MySQL, and have worked in an agile development environment with regular sprints and releases.
+			</p>
+			<p>
+				This necessarily involved taking into account web standards, usability and accessibility issues, and cross-platform and cross-browser compatibility.
+			</p>
+			
+			<p>I have Python programming experience for solving real-world problems, automating processes and developing web applications using Django.</p> 
+			<p>For Data Science projects I have used Python libraries to import, clean, analyse and visualise data, and evaluate, build, train, test and optimise machine learning models.
+			
+			</p>
+			
+
+					<h3>Skills include:</h3>
+					<ul>
+						<li>structure, presentation and interactivity</li>
+						<li>popular frameworks and libraries</li>
+						<li>cross-browser and platform testing</li>
+						<li>usability testing</li>
+						<li>integration with back end</li>
+						<li>development, testing, deployment and maintenance</li>
+					</ul>
+
+			
+		</div>
+		<a href="#close-project-3" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+	<div class="cd-project-content" id="project-4">
+		<div>
+			<h1>Technologies</h1>
+			<h2>Tools, languages, frameworks and libraries.</h2>
+			<img class="img-responsive" src="images/skills/designer.jpg" alt="Mac designer">
+			<h3>Web and app development</h3>
+			<p>
+				A range of technologies have been deployed throughout various stages in the multimedia, app and web design and development process.
+			</p>
+			<p>
+			I also have Python programming experience for solving real-world problems, automating processes and developing web applications using Django.
+			</p>
+		
+			
+		<div class="container-fluid block--techlogos">
+		  <div class="row">
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+            <img class="img-responsive" src="images/skills/html5.png" alt="HTML5">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/css3.png" alt="CSS3">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/js.png" alt="JavaScript">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+            <img class="img-responsive" src="images/skills/bootstrap.png" alt="Bootstrap">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/jquery.png" alt="jQuery">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/php.png" alt="php">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/mysql.png" alt="MySQL">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/python.png" alt="Python">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/django.png" alt="Django">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/aws.png" alt="AWS">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/adobecc.png" alt="Adobe Creative Cloud">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/figma.png" alt="Figma">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/git.png" alt="Git">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/github.png" alt="GitHub">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/atlassian.png" alt="Atlassian">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/wordpress.png" alt="WordPress">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/drupal.png" alt="Drupal">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/joomla.png" alt="Joomla!">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/moodle.png" alt="Moodle">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/sdl.png" alt="SDL">
+			</div>
+
+    </div>
+	 </div>	
+			<h3>Data Science and Analytics</h3>
+	 		<p>
+				A selection of coding languages, platforms, tools and libraries used in Data Science projects to import, clean, analyse and visualise data, and evaluate, build, train, test and optimise machine learning models.
+			</p>
+			
+			<div class="container-fluid block--techlogos">
+		  <div class="row">
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+            <img class="img-responsive" src="images/skills/python.png" alt="Python">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/r.png" alt="R">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/anaconda.png" alt="Anaconda">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+            <img class="img-responsive" src="images/skills/jupyter.png" alt="Jupyter">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/google-colab.png" alt="Google Colab">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/binder.png" alt="Binder">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/numpy.png" alt="NumPy">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/pandas.png" alt="Pandas">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/matplotlib.png" alt="Matplotlib">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/seaborn.png" alt="Seaborn">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/plotly.png" alt="Plotly">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/hvPlot.png" alt="hvPlot">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/holoviews.png" alt="HoloViews">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/bokeh.png" alt="Bokeh">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/scipy.png" alt="SciPy">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/statsmodels.png" alt="Statsmodels">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/scikit-learn.png" alt="Scikit-learn">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/tensorflow.png" alt="TensorFlow">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/keras.png" alt="Keras">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/nltk.png" alt="NLTK">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/spacy.png" alt="spaCy">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/gensim.png" alt="Gensim">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/textblob.png" alt="TextBlob">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/beautifulsoup.png" alt="Beautiful Soup">
+			</div>
+			<div class="col-xs-6  col-sm-3 col-md-5 col-lg-5">
+				<img class="img-responsive" src="images/skills/selenium.png" alt="Selenium">
+			</div>
+    </div>
+	 </div>
+	 
+		</div>
+		<a href="#close-project-4" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> 
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script> 
+
+	<title>Alison Mitchell - Web Design & Development, Data Science & Machine Learning</title>
+</head>
+<body id="home">
+	<!-- .cd-intro-block -->
+	<div class="cd-intro-block">
+		<div class="cd-content-wrapper">
+			<h1 class="animated bounceInDown"><img class="img-logo animated bounceInDown" src="images/am-logo.svg" alt="logo" />alisonmitchell.me</h1>
+			<h2 class="animated bounceInDown">Alison Mitchell</h2>
+			<h3 class="animated bounceInDown">WEB DESIGN &amp; DEVELOPMENT</h3>
+			<h3 class="animated bounceInDown">DATA ANALYSIS &amp; MACHINE LEARNING</h3>
+			
+			
+			<a class='cd-btn animated bounceInDown' data-action="show-projects">VIEW DATA SCIENCE PROJECTS</a>
+		</div>
+	</div> <!-- .cd-intro-block -->
+
+	<div class="cd-projects-wrapper">
+	
+		  <div class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <img src="images/am-logo.svg" alt="logo" />
+                    <div class="navbar-brand"><a href="index.html" aria-label="Home">alisonmitchell.me</a></div>
+                </div>
+                <ul class="navbar-menu">
+				<li><a href="experience.html" class="navbar-button"><span>Experience</span></a></li>
+				<li><a href="skills.html" class="navbar-button"><span>Skills</span></a></li>
+				<li><a href="websites.html" class="navbar-button"><span>Websites</span></a></li>
+				<li><a href="python.html" class="navbar-button"><span>Python</span></a></li>
+				<li><a href="data-science.html" class="navbar-button"><span>Data Science</span></a></li>
+				<li><a href="https://www.linkedin.com/in/alison-l-mitchell/" class="social-icon" aria-label="LinkedIn" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle-thin fa-stack-2x"></i>
+					<i class="fa fa-linkedin fa-stack-1x"></i>
+				  </span></a></li>
+				<li><a href="https://github.com/alisonmitchell" class="social-icon" aria-label="GitHub" target="_blank"><span class="fa-stack fa-lg">
+					<i class="fa fa-circle-thin fa-stack-2x"></i>
+					<i class="fa fa-github fa-stack-1x"></i>
+				  </span></a></li>
+				<li><a href="#menu" aria-label="Open menu" class="navbar-button-menu" onclick="openNav()"><i class="fa fa-navicon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+		
+		<div id="mySidenav" class="sidenav">
+			<a href="#close" aria-label="Close" class="closebtn" onclick="closeNav()"><i class="fa fa-close"></i></a>
+			<a href="index.html#home">Home</a>
+			<a href="experience.html">Experience</a>
+			<a href="skills.html">Skills</a>
+			<a href="websites.html">Websites</a>
+			<a href="python.html">Python</a>
+			<a href="data-science.html">Data&nbsp;Science</a>
+			<a href="https://www.linkedin.com/in/alison-l-mitchell/" target="_blank">LinkedIn</a>
+			<a href="https://github.com/alisonmitchell" target="_blank">GitHub</a>
+		  </div>
+		
+		  <a href="#close-projects" tabindex="0" aria-label="Close projects" class="cd-btn close-btn" data-action="close-projects">CLOSE</a>
+		
+<ul class="cd-slider">
+	<li class="current">	
+		<div class="container-project">
+		  <img src="images/data-science/stock-exchange-bull-bear.jpg" alt="Bull and bear">
+		  <div class="container-overlay">
+		  <a href="#project-1" aria-label="Link to project 1"><i class="fa fa-search"></i></a>
+		  </div>
+		</div>
+			  <div class="project-info">
+				  <h2>Stock Prediction</h2>
+				  <p>FTSE 100 stock price forecasting.</p>
+			  </div>	
+		  
+	  </li>
+			<li>	
+			  <div class="container-project">
+				<img src="images/data-science/titanic.jpg" alt="RMS Titanic">
+				<div class="container-overlay">
+				<a href="#project-2" aria-label="Link to project 2"><i class="fa fa-search"></i></a>
+				</div>
+			  </div>
+					<div class="project-info">
+						<h2>Titanic</h2>
+						<p>Binary classification to predict survival.</p>
+					</div>	
+				
+			</li>
+			
+			<li>
+				<div class="container-project">
+				 <img src="images/data-science/boston-brownstone-townhouse-exteriors.jpg" alt="Boston brownstone townhouse exteriors">
+				 <div class="container-overlay">
+				<a href="#project-3" aria-label="Link to project 3"><i class="fa fa-search"></i></a>
+				</div>
+			  </div>
+					<div class="project-info">
+						<h2>Boston Housing</h2>
+						<p>Linear regression to predict house prices.</p>
+					</div>
+				
+			</li>
+
+			<li>
+				<div class="container-project">
+				  	<img src="images/data-science/close-up-of-globe.jpg" alt="Close-up of globe">
+					<div class="container-overlay">
+				<a href="#project-4" aria-label="Link to project 4"><i class="fa fa-search"></i></a>
+				</div>
+			  </div>
+					<div class="project-info">
+						<h2>Countries of the World</h2>
+						<p>EDA of GDP, Literacy and Phones.</p>
+					</div>
+				</li>
+
+			
+
+		</ul>
+
+		<ul class="cd-slider-navigation cd-img-replace">
+			<li><a class="prev inactive">Prev</a></li>
+			<li><a class="next">Next</a></li>
+		</ul> <!-- .cd-slider-navigation -->
+	</div> <!-- .cd-projects-wrapper -->
+
+	<div class="cd-project-content" id="project-1">
+		<div>
+			<h1>Stock Prediction</h1>
+			<h2>Technical and sentiment analysis to predict the stock market.</h2>
+			
+			<p><a href="https://github.com/alisonmitchell/stock-prediction" target="_blank">View on GitHub <svg version="1.1" width="20" height="20" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></p>
+			
+			<img class="img-responsive" src="images/data-science/candlestick-chart.jpg" alt="Candlestick chart">
+			
+			<h3>Project description</h3>
+			
+			<p>The aim of the project is to investigate the performance of various machine learning models to predict stock market movements based on historical time series data and news article sentiment collected using APIs and web scraping. The basic principle would be to buy low and sell high, but the complexity arises in knowing when to buy and sell a stock.</p> 
+			<p>Four types of analysis exist to forecast the markets - fundamental, technical, quantitative and sentiment - each with its own underlying principles, tools, techniques and strategies, and it is likely that understanding the intuition of each and combining complementary approaches is more optimal than relying solely on one. Forecasting strategies will be developed based on predictions and backtested against a benchmark.</p>
+			<P>The FTSE 100 share index comprises the top 100 blue chip companies by market capitalisation listed on the London Stock Exchange, the primary stock exchange in the UK and the largest in Europe. As London’s benchmark index it is both representative of the UK’s stock market and an economic bellwether for the global economy given the international exposure of most of its constituents.  This study focuses on data from six of the top FTSE 100 companies (AstraZeneca, GlaxoSmithKline, BP, Royal Dutch Shell, HSBC and Unilever) representing a range of sectors including oil, pharmaceuticals, finance and consumer.</p>
+			
+
+			<h3>Exploratory Data Analysis</h3>
+			<p>The yfinance API will be used to download stock data for opening price (Open), highest and lowest price the stock traded at (High, Low), closing price (Close), number of stocks traded (Volume) and Adjusted Close. For the most part the Adjusted Close price will be selected for prediction purposes to take into account all corporate actions, such as stock splits and dividends, to give a more accurate reflection of the true value of the stock and present a coherent picture of returns.</p>
+			
+			<img class="img-responsive" src="images/data-science/adjusted-close-price.png" alt="Adjusted Close price chart for six FTSE 100 stocks with two different scales">
+			<p>Data will be transformed to calculate and visualise returns, and covariance and correlation matrices will show strength and direction of the relationship between stocks' returns. These observations could be used to select a portfolio of stocks that complement each other in terms of price movement.</p>
+			
+			<h3>Technical Analysis</h3>
+			<p>Technical analysis is the use of charts and technical indicators to identify trading signals and price patterns. Various technical strategies will be investigated using the most common leading and lagging trend, momentum, volatility and volume indicators including Moving Averages, Moving Average Convergence Divergence (MACD), Stochastic Oscillator, Relative Strength Index (RSI), Money Flow Index (MFI), Rate of Change (ROC), Bollinger Bands, and On-Balance Volume (OBV).</p>
+
+			<img class="img-responsive" src="images/data-science/astrazeneca-adjusted-close-price-and-9-day-roc-for-last-100-days-of-2019.png" alt="AstraZeneca Adjusted Close Price and 9-day ROC for last 100 days of 2019">
+			<h3>Time Series</h3>
+			<p>A time series is basically a series of data points ordered in time and is an important factor in predicting stock market trends. In time series forecasting models, time is the independent variable and the goal is to predict future values based on previously observed values.</p>
+
+			<p>Stock prices are often non-stationary and may contain trends or volatility but different transformations can be applied to turn the time series into a stationary process so that it can be modelled.</p> 
+			<img class="img-responsive" src="images/data-science/acf-and-pacf-plots-of-aztrazeneca-adjusted-close-price-before-differencing.png" alt="AstraZeneca Adjusted Close Price Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots before differencing">
+			<p>The Augmented Dickey-Fuller (ADF) test will be used to check for stationarity, and the order of differencing required to make the series stationary will be determined.</p>
+			<img class="img-responsive" src="images/data-science/plot-of-daily-changes-in-aztrazeneca-adjusted-close-price-after-first-order-of-differencing.png" alt="AstraZeneca Adjusted Close price after first order of differencing">
+			<p>Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots will show whether transformations have removed seasonality and any non-stationary behaviours - a necessary step before focusing on autoregressive time series models.</p>
+			<img class="img-responsive" src="images/data-science/acf-and-pacf-plots-of-aztrazeneca-adjusted-close-price-after-differencing.png" alt="AstraZeneca Adjusted Close Price Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots after differencing">
+			<p>Models to be evaluated will include Moving Averages, Auto-Regressive Integrated Moving Average (ARIMA), Seasonal Auto-Regressive Integrated Moving Average (SARIMA) and Facebook Prophet.</p> 
+			<img class="img-responsive" src="images/data-science/sarima-plot-of-fit-to-training-data-and-forecast-vs-actual-test-values-and-confidence-interval.png" alt="SARIMA plot of fit to training data and forecast vs actual test values and confidence interval">
+			<img class="img-responsive" src="images/data-science/facebook-prophet-forecast-vs-actual-test-values-and-changepoints.png" alt="Facebook Prophet - Forecast vs Actual Test Values and Changepoints">
+			<p>Recurrent Neural Network (RNN) models such as Simple RNN, Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) will also be explored and various machine learning and deep learning models created, trained, tested and optimised.</p>
+			<img class="img-responsive" src="images/data-science/lstm-plot-of-fit-to-training-data-and-forecast-vs-actual-test-values.png" alt="LSTM model - Fit to Training Data and Forecast vs Actual Test Values">
+
+
+			<h3>Sentiment Analysis</h3>
+			<p>News articles will be collected from Investing.com by web scraping using Selenium and Beautiful Soup. Sentiment analysis will then be performed using NLP tools such as NLTK's VADER and TextBlob to find sentiment scores before combining the results with historical stock price data to determine whether news sentiment influences stock price direction.</p>
+		
+			<h3>Algorithms and techniques</h3>
+			
+			
+			<p>Predicting the stock market will be posed both as a regression problem of price prediction to forecast prices 'n' days in the future, and a classification problem of direction prediction to forecast whether prices will increase or decrease. </p>
+			<p>The X matrix of features will comprise any additional features engineered from the Adjusted Close price. For the regression problem, the y vector of the target variable will be the Adjusted Close price offset by however many days in advance we want to predict. For the classification problem it will be Buy and Sell signals, or 1 if the price will increase 'n' days in the future, and 0 if it will decrease, respectively.</p>
+			<img class="img-responsive" src="images/data-science/classifier-confusion-matrices.png" alt="Confusion matrices for Gaussian Naive Bayes and Gradient Boosting Classifier models">
+			<p>To avoid look-ahead bias when splitting time series data into training and test sets sklearn's TimeSeriesSplit() class will be used. Successive training sets are supersets of those that come before them so that the model is not trained on data it has already seen. To use randomised data rather than walk-forward validation would lead to overfitting.</p>
+			<p>Pipelines will be built, and various Gradient-Descent based, Distance-Based and Tree-Based regression and classifier models spot checked, before selecting the best performing models for optimisation using Grid Search cross-validation, and hyperparameter tuning.</p>
+			
+
+			
+
+			<h3>Data sources</h3>
+			
+			<p><a href="https://uk.finance.yahoo.com/" target="_blank">Yahoo! Finance</a> for historical stock data.</p>
+			<p><a href="https://uk.investing.com/" target="_blank">Investing.com</a> for market news articles.</p>
+
+			<h3>Python libraries</h3>
+			<ul>
+			<li>Numpy</li>
+			<li>Pandas</li>
+			<li>Matplotlib</li>
+			<li>Mplfinance</li>
+			<li>Seaborn</li>
+			<li>Plotly</li>
+			<li>SciPy</li>
+			<li>Statsmodels</li>
+			<li>Scikit-learn</li>
+			<li>Keras</li>
+			<li>TensorFlow</li>
+			<li>Yfinance</li>
+			<li>Beautiful Soup</li>
+			<li>Selenium</li>
+			<li>NLTK</li>
+			<li>TextBlob</li>
+			<li>SpaCy</li>
+			<li>Gensim</li>
+			</ul>
+			
+			
+		</div>
+		<a href="#close-project-1" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+
+	<div class="cd-project-content" id="project-2">
+		<div>
+			<h1>Titanic</h1>
+			<h2>Binary classification to predict survival.</h2>
+			
+			<p><a href="https://github.com/alisonmitchell/titanic" target="_blank">View on GitHub <svg version="1.1" width="20" height="20" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></p>
+			
+			<img class="img-responsive" src="images/data-science/titanic-departing-southampton.jpg" alt="RMS Titanic departing Southampton on April 10, 1912">
+			
+			<h3>Project description</h3>
+			
+			<p>The Titanic passenger manifest is a popular dataset for practice in solving supervised learning classification problems. The challenge is to build a predictive model to determine which passengers were more likely to survive.</p>
+
+			<p>This notebook demonstrates Exploratory Data Analysis techniques and modelling concepts learned on a face-to-face machine learning course and from various resources including blogs, tutorials, documentation and textbooks.</p>
+
+			<p>Importing and performing descriptive statistics on the dataset using Pandas revealed missing data and categorical and numerical data types. Visualisation using Matplotlib and Seaborn showed the composition and distribution of data and the strength of correlation between features which would greatly influence chances of survival.</p>
+
+			<p>The preprocessing stage comprised imputing missing values, feature encoding to transform categorical into numerical data, feature scaling using NumPy to apply a log transformation to remove impact of skewness, feature extraction and engineering of additional features, binning data into groups, and deletion of irrelevant features to reduce noise and avoid overfitting. The data was standardised using scikit-learn's StandardScaler() function to transform attributes to a standard Gaussian distribution with a mean of 0 and a standard deviation of 1.</p>
+
+			<p>During the modelling stage a performance metric was defined (Accuracy), and 14 classification models were evaluated using a 10-fold cross-validation method including decision-tree-based ensemble algorithms, k-nearest neighbors, Naive Bayes, support vector classifier, and a deep neural network model using Keras on a TensorFlow backend. Six models were selected for optimisation using the Grid Search technique and hyperparameters were tuned. Feature importance, accuracy score, confusion matrix, precision and recall score metrics were compared before selecting the Gradient Boosting classifier as the best performing model.</p>
+			
+			<h3>Data source</h3>
+			
+			<p><a href="https://www.kaggle.com/c/titanic/data?test.csv" target="_blank">Kaggle Titanic dataset</a></p>
+			
+			<h3>Python libraries</h3>
+			<ul>
+			<li>Numpy</li>
+			<li>Pandas</li>
+			<li>Matplotlib</li>
+			<li>Seaborn</li>
+			<li>SciPy</li>
+			<li>Scikit-learn</li>
+			<li>Keras</li>
+			<li>TensorFlow</li>
+			</ul>
+			
+			
+		</div>
+		<a href="#close-project-2" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+		<div class="cd-project-content" id="project-3">
+		<div>
+			<h1>Boston Housing</h1>
+			<h2>Linear regression to predict house prices.</h2>
+			
+			<p><a href="https://github.com/alisonmitchell/boston-housing" target="_blank">View on GitHub <svg version="1.1" width="20" height="20" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></p>
+			
+			<img class="img-responsive" src="images/data-science/boston-terraced-houses.jpg" alt="Boston terraced houses">
+			
+			<h3>Project description</h3>
+			
+			<p>The popular Boston Housing dataset contains information collected by the U.S Census Service concerning housing in the area of Boston MA which was originally published in 1978. It is widely used for practice in solving supervised regression problems and is one of the standard datasets included in the scikit-learn library. The challenge is to develop a model that will predict house prices given a set of features that describe houses in Boston.</p>
+
+			<p>The notebook demonstrates Exploratory Data Analysis techniques and modelling concepts learned on a face-to-face machine learning course and from various resources including blogs, tutorials, documentation and textbooks.</p>
+
+			<p>The dataset is a dictionary so the keys can be printed to view the attributes such as number of samples and features, feature names and characteristics.</p>
+
+			<p>Importing and performing descriptive statistics on the dataset using Pandas revealed two categorical variables, and plotting the distribution of the data using Matplotlib and Seaborn showed a normal distribution with a few outliers. The Pandas corr() function was used to compute the correlation between attributes and Seaborn to visualise the correlation matrix as a heatmap. Univariate and bivariate plots were used to visualise single attributes and two attributes respectively. This included a box plot (univariate) showing outliers whose percentages were calculated using NumPy.</p>
+
+			<p>As part of the preprocessing stage the target variable outliers were removed. After feature selection the dataset was split and stored in features and prices variables respectively. The data was normalised using scikit-learn's MinMaxScaler() function, split into training (80%) and test (20%) subsets and shuffled to remove ordering bias.</p>
+
+			<p>During the modelling stage a performance metric (Mean Squared Error) was defined and 11 regression models were evaluated using a 10-fold cross-validation method including linear regression, three regularisation methods, k-nearest neighbors, support vector regressor and decision-tree-based ensemble algorithms. Three models were selected for optimisation using the Grid Search technique and hyperparameters were tuned. Feature importance, mean squared error, and variance score metrics were compared before selecting the Gradient Boosting regressor as the best performing model.</p>
+			
+			<h3>Data source</h3>
+			
+			<p><a href="https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html" target="_blank">Boston housing dataset</a> included with the <a href="https://scikit-learn.org/stable/datasets/index.html#boston-dataset" target="_blank">scikit-learn library</a>.</p>
+			
+			<h3>Python libraries</h3>
+			<ul>
+			<li>Numpy</li>
+			<li>Pandas</li>
+			<li>SciPy</li>
+			<li>Scikit-learn</li>
+			<li>Matplotlib</li>
+			<li>Seaborn</li>
+			</ul>
+
+		</div>
+		<a href="#close-project-3" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+	<div class="cd-project-content" id="project-4">
+		<div>
+			<h1>Countries of the World</h1>
+			<h2>Exploratory Data Analysis of US Government data from the World Factbook on GDP ($ per capita), Literacy (%) and Phones (per 1000).</h2>
+			
+			<p><a href="https://github.com/alisonmitchell/countries-of-the-world" target="_blank">View on GitHub <svg version="1.1" width="20" height="20" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></p>
+			
+			<img class="img-responsive" src="images/data-science/gdp-word-cloud.jpg" alt="GDP word cloud">
+			
+			<h3>Project description</h3>
+			
+			<p>The <a href="https://www.kaggle.com/fernandol/countries-of-the-world" target="_blank">Countries of the World</a> dataset comprises <a href="http://gsociology.icaap.org/dataupload.html" target="_blank">US Government data</a> from the <a href="https://www.cia.gov/library/publications/resources/the-world-factbook/" target="_blank">World Factbook</a>. The investigation focuses on GDP ($ per capita), Literacy (%) and Phones (per 1000) to test the hypothesis that there would be a significant positive relationship between these variables.</p>
+
+			<p>This notebook demonstrates Exploratory Data Analysis techniques learned on a face-to-face machine learning course and from various resources including blogs, tutorials, documentation and textbooks.</p>
+
+			<p>Importing and exploring the dataset using Pandas revealed issues for data cleaning including renaming of columns, changing data types from string to float, filling missing values, and removing spaces in the Region column.</p>
+
+			<p>Visualisation using Matplotlib and Seaborn showed number of countries per region and a correlation heatmap showed strength of correlation between pairs of numerical variables (GDP and Phones, Literacy and Phones and GDP and Literacy). Boxplots visualised data distribution indicating how the values in the data were spread out for GDP per capita , Literacy (%) and Phones by Region and categorical plots were also used to show the relationship between a numerical and one or more categorical variables. Scatterplots highlighted the strongest (positive) correlation between GDP and Phones which could be seen even more clearly by fitting a linear regression model and plotting the resulting regression line. Other visualisations included bar charts, a frequency histogram and Kernel density estimation (KDE) plot to encode the density of observations on one axis with height along the other axis.</p>
+			
+			<h3>Data source</h3>
+			
+			<p><a href="http://gsociology.icaap.org/dataupload.html" target="_blank">US Government data</a> from the <a href="https://www.cia.gov/library/publications/resources/the-world-factbook/" target="_blank">World Factbook</a>.</p>
+			
+			<h3>Python libraries</h3>
+			<ul>
+			<li>Numpy</li>
+			<li>Pandas</li>
+			<li>Matplotlib</li>
+			<li>Seaborn</li>
+			</ul>
+		</div>
+		<a href="#close-project-4" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+
+
+
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+</body>
+</html>
