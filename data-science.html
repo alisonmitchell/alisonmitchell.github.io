@@ -74,22 +74,36 @@
 <ul class="cd-slider">
 	<li class="current">	
 		<div class="container-project">
-		  <img src="images/data-science/stock-exchange-bull-bear.jpg" alt="Bull and bear">
+		  <img src="images/data-science/knowledge-graph.jpg" alt="Knowledge graph">
 		  <div class="container-overlay">
 		  <a href="#project-1" aria-label="Link to project 1"><i class="fa fa-search"></i></a>
 		  </div>
 		</div>
 			  <div class="project-info">
-				  <h2>Stock Prediction</h2>
-				  <p>FTSE 100 stock price forecasting.</p>
+				  <h2>Biomedical Knowledge Graph</h2>
+				  <p>Information extraction from unstructured text.</p>
 			  </div>	
 		  
 	  </li>
+	  
+	  		<li>	
+			  <div class="container-project">
+				<img src="images/data-science/stock-exchange-bull-bear.jpg" alt="Bull and bear">
+				<div class="container-overlay">
+				<a href="#project-2" aria-label="Link to project 2"><i class="fa fa-search"></i></a>
+				</div>
+			  </div>
+			  <div class="project-info">
+				  <h2>Stock Prediction</h2>
+				  <p>FTSE 100 stock price forecasting.</p>
+			  </div>
+				
+			</li>
 			<li>	
 			  <div class="container-project">
 				<img src="images/data-science/titanic.jpg" alt="RMS Titanic">
 				<div class="container-overlay">
-				<a href="#project-2" aria-label="Link to project 2"><i class="fa fa-search"></i></a>
+				<a href="#project-3" aria-label="Link to project 3"><i class="fa fa-search"></i></a>
 				</div>
 			  </div>
 					<div class="project-info">
@@ -103,7 +117,7 @@
 				<div class="container-project">
 				 <img src="images/data-science/boston-brownstone-townhouse-exteriors.jpg" alt="Boston brownstone townhouse exteriors">
 				 <div class="container-overlay">
-				<a href="#project-3" aria-label="Link to project 3"><i class="fa fa-search"></i></a>
+				<a href="#project-4" aria-label="Link to project 4"><i class="fa fa-search"></i></a>
 				</div>
 			  </div>
 					<div class="project-info">
@@ -117,7 +131,7 @@
 				<div class="container-project">
 				  	<img src="images/data-science/close-up-of-globe.jpg" alt="Close-up of globe">
 					<div class="container-overlay">
-				<a href="#project-4" aria-label="Link to project 4"><i class="fa fa-search"></i></a>
+				<a href="#project-5" aria-label="Link to project 5"><i class="fa fa-search"></i></a>
 				</div>
 			  </div>
 					<div class="project-info">
@@ -135,8 +149,125 @@
 			<li><a class="next">Next</a></li>
 		</ul> <!-- .cd-slider-navigation -->
 	</div> <!-- .cd-projects-wrapper -->
-
+	
 	<div class="cd-project-content" id="project-1">
+		<div>
+			<h1>Biomedical Knowledge Graph</h1>
+			<h2>Information extraction from unstructured text.</h2>
+			
+			<p><a href="https://github.com/alisonmitchell/biomedical-knowledge-graph" target="_blank">View on GitHub <svg version="1.1" width="20" height="20" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></p>
+			
+			<img class="img-responsive" src="images/data-science/knowledge-graph-imac.jpg" alt="Knowledge Graph">
+			
+			<h3>Project description</h3>
+			
+			<p>The aim of the project is to build an interactive knowledge graph of biomedical entities and relations by extracting structured information from unstructured text on drug repurposing for COVID-19 published in biomedical research papers.</p> 
+			<p>This infectious disease, caused by the SARS-CoV-2 virus, could be considered the greatest public health emergency of international concern thus far in the 21st century. The World Health Organisation declared the outbreak a pandemic on 11 March, 2020, and governments announced lockdown measures constituting the largest quarantine in human history. Inevitably, antiviral drug repurposing activities were accelerated.</p>
+			<p>In addition to predicting or recommending new purposes for existing drugs, thereby reducing time, cost and risk, other use cases might include predicting drug side or adverse effects.</p>
+			
+
+			<h3>Data Collection</h3>
+			<p>Data will be collected from multiple sources including <a href="https://europepmc.org/" target="_blank">Europe PMC</a> and <a href="https://arxiv.org/" target="_blank">arXiv</a> using APIs to retrieve article full text XML and metadata, <a href="https://github.com/kermitt2/grobid" target="_blank">GROBID</a> machine learning library to extract, parse and restructure articles in PDF format into structured XML, and more manual methods for page layout analysis, and detecting and extracting text where exceptions occur during automated processes.</p>
+			
+			
+			<h3>Exploratory Data Analysis</h3>
+			<p>Exploratory Data Analysis (EDA) is an iterative process with multiple stages, types, tools and techniques, the overall objective being to obtain actionable insights which can inform data-driven decision-making. Basic EDA will be performed to analyse text statistics, followed by Word Analysis which will use spaCy to analyse stopwords and n-grams. Outputs will be visualised as histograms, bar charts and wordclouds.</p>
+
+			<p>NLP approaches have evolved over time from traditional rule-based to statistical machine learning methods and feature-based approaches, to shallow and deep learning neural network-based models, pre-trained transformers and LLMs, a combination of which will be used for preprocessing, feature extraction and modelling.</p>
+
+			<p>spaCy processing pipeline components will be utilised for preprocessing, which facilitates feature extraction and modelling by making natural language normalised and machine-readable.</p>
+
+			<p>Feature extraction using traditional frequency-based methods will consider the Bag of Words model as the simplest text vectorisation approach, and represent and identify the importance of words with categorical (CountVectorizer) and weighted (TF-IDF) word representation techniques, and the use of n-grams.</p>
+
+			<p>Representation learning, also known as feature learning, simplifies raw input data by extracting meaningful and informative feature representations that are low-dimensional and generalisable. Techniques will include Dimensionality Reduction (PCA, SVD, TruncatedSVD, t-SNE, and UMAP), Word Embeddings (Word2Vec and GloVe) and Text Embeddings (BERT-based Sentence Transformers and GPT-style OpenAI embedding models).</p>
+
+			<img class="img-responsive" src="images/data-science/glove_network_explorer_titled.png" alt="GloVe network explorer">
+			
+			<p>Modelling will utilise the general-purpose, scalable K-means algorithm for the downstream task of clustering, a practical application for embeddings after dimensionality reduction. Topic modelling, or abstracting topics from a collection of documents, will include techniques such as Latent Dirichlet Allocation (LDA), and BERTopic, after which topic representations will be fine-tuned by prompting an LLM to create short topic labels.</p>
+			
+			<h3>Information Extraction Pipeline</h3>
+			<p>Information Extraction is the higher-level task of extracting structured information from unstructured text and comprises a pipeline of subtasks, including Coreference Resolution, Named Entity Recognition (NER) and Linking, and Relation Extraction. The structured data can then be analysed, searched and visualised, and has a wide variety of applications across multiple domains. Constructing a knowledge graph to represent the extracted information about real-world entities and their relationships to each other could serve as a knowledge base for use in information retrieval, search and recommendation systems.</p>
+
+			<p>The pipeline will take the preprocessed text as input, resolve coreferences using a neural model, classify entities with spaCy/scispaCy and fine-tuned BERT-based NER and linking models, and use a seq2seq model based on the BART encoder-decoder transformer architecture, a GPT-style base LLM, and a supervised fine-tuned LLM to extract predefined semantic relations between named entities, and output subject-predicate-object triplets to build knowledge graphs.</p> 
+			<img class="img-responsive" src="images/data-science/information_extraction_pipeline.png" alt="Information extraction pipeline">
+			<p>This hybrid approach to information extraction includes traditional rule-based, statistical machine learning, and neural network-based methods which require specialised pipelines for each task; generalist pre-trained language models (PLMs) leveraging the idea of transfer learning and supervised fine-tuning on domain/task-specific data; and LLMs which revolutionalised the NLP landscape by building on the transformer architecture to unprecedented levels. Models trained on vast datasets, and utilising billions of parameters to define behaviour, were able to understand and analyse natural language and generate human-like responses.</p>
+			<p>An information extraction pipeline could be performed entirely using LLMs, and a single model with generalisation capabilities could solve a range of NLP tasks without fine-tuning. However, challenges and limitations persist as LLMs generate text based on probabilities. They have a knowledge cutoff date, and their training data does not include external domain-specific data sources, often resulting in hallucinations.</p>
+			
+			
+			<h3>Coreference Resolution</h3>
+			<p>Coreference Resolution is the advanced preprocessing task of finding and establishing a relation between all linguistic expressions, or entity mentions, in a text that refer to the same real-world entity. Here it is represented as the task of replacing pronouns with referenced entities, and the <a href="https://github.com/shon-otmazgin/fastcoref" target="_blank">fastcoref</a> neural model will be used to predict whether spans are coreferent.</p>
+		
+			<h3>Named Entity Recognition</h3>
+			
+			<p>Named Entity Recognition (NER) models are trained to identify and classify specific entities in text into predefined categories. scispaCy NER models trained on biomedical corpora will be used to extract and label entities, and the EntityLinker component to query supported knowledge bases and match entities to entries. End-to-end models such as BioBERT-based <a href="https://github.com/dmis-lab/BERN2" target="_blank">BERN2</a>, and the more computationally efficient <a href="https://github.com/AstraZeneca/KAZU" target="_blank">KAZU</a>, perform NER and Linking in a single step.</p>
+			<img class="img-responsive" src="images/data-science/named_entities_and_labels.png" alt="Named entities and labels">
+			
+			<h3>Relation Extraction</h3>
+			
+			<p>Relation Extraction is the final step in the information extraction pipeline and is the process of extracting relationships between entities in the text. <a href="https://github.com/Babelscape/rebel" target="_blank">REBEL</a> is a seq2seq model which performs end-to-end entity and relation extraction for more than 200 different relation types using a Hugging Face pipeline, as a spaCy component, or directly with the transformers library and generate() function. REBEL will also be used to extract triplets for indexing, storage and retrieval by <a href="https://github.com/run-llama/llama_index" target="_blank">LlamaIndex</a> along with a pre-trained Sentence Transformers embedding model, and an LLM to respond to prompts and queries, and for writing natural language responses. During queries, keywords are extracted from the query text and used to find triplets containing the same subject, and their associated text chunks.</p>
+			
+			<p>The use of LLMs for knowledge graph construction, and the leveraging of knowledge graphs to enhance LLMs, will be demonstrated using <a href="https://github.com/langchain-ai" target="_blank">LangChain</a>, an open-source orchestration framework for developing context-aware, reasoning applications powered by language models.</p>
+			
+			<p><a href="https://console.groq.com/playground" target="_blank">Groq</a>'s fast AI inference API for supported LLMs, with few-shot prompting to extract triples, will demonstrate the generalisation capabilities of LLMs over domain and task-specific NLP models. Finally, <a href="https://github.com/unslothai/unsloth" target="_blank">Unsloth</a> will be used to simplify and accelerate the supervised fine-tuning process for a supported LLM using a gold standard annotated dataset with labelled training examples and expected outputs.</p>
+			
+			<h3>Knowledge Graph</h3>
+			
+			<p>A knowledge graph is a graphic representation of a network of real-world entities and the relationships between them. The term 'Knowledge Graph' was officially coined by <a href="https://blog.google/products/search/introducing-knowledge-graph-things-not/" target="_blank">Google</a> in 2012, although conceptually it dates back to the 1950s and the advent of the digital age. The adoption of knowledge graphs (KGs) in NLP has become increasingly popular in recent years with frameworks to <a href="https://arxiv.org/pdf/2306.08302" target="_blank">unify LLMs and KGs</a> and simultaneously leverage the advantages of KG-enhanced LLMs, LLM-augmented KGs, and Synergised LLMs + KGs. Indeed, <a href="https://www.gartner.com/en/newsroom/press-releases/2021-03-16-gartner-identifies-top-10-data-and-analytics-technologies-trends-for-2021" target="_blank">Gartner</a> predicted that knowledge graphs would be a part of 80% of data and analytics innovations by 2025, up from 10% in 2021, and that <a href="https://www.gartner.com/en/articles/hype-cycle-for-artificial-intelligence" target="_blank">composite AI</a> represents the next phase in AI evolution by combining AI methodologies — such as machine learning, natural language processing and knowledge graphs — to create more adaptable and scalable solutions.</p>
+			
+			<p>Here, <a href="https://github.com/networkx/networkx" target="_blank">NetworkX</a> and <a href="https://github.com/WestHealth/pyvis" target="_blank">Pyvis</a> will be used to visualise the output from the information extraction process as interactive network graphs of colour-coded nodes with properties comprising biomedical entities, entity types, and entity IDs linking to target knowledge bases, and edges representing the semantic relationships between them.</p>
+	
+			<img class="img-responsive" src="images/data-science/pyvis_knowledge_graph_alveolar_type_ii_cells.png" alt="Pyvis knowledge graph  showing tooltip for alveolar type II cells">
+			
+
+			<h3>Data sources</h3>
+			
+			<p><a href="https://europepmc.org/" target="_blank">Europe PMC</a></p>
+			<p><a href="https://arxiv.org/" target="_blank">arXiv</a></p>
+
+			<h3>Python libraries</h3>
+			<ul>
+			<li>arxiv.py</li>
+			<li>GROBID</li>
+			<li>scipdf_parser</li>
+			<li>Europe PMC Articles RESTful API</li>
+			<li>Beautiful Soup</li>
+			<li>pdfminer.six</li>
+			<li>pdfplumber</li>
+			<li>spaCy</li>
+			<li>scispaCy</li>
+			<li>Textstat</li>
+			<li>Plotly</li>
+			<li>kneed</li>
+			<li>Yellowbrick</li>
+			<li>UMAP</li>
+			<li>Gensim</li>
+			<li>embedding-explorer</li>
+			<li>Embetter</li>
+			<li>glove-python</li>
+			<li>glovpy</li>
+			<li>openai-python</li>
+			<li>BERTopic</li>
+			<li>fastcoref</li>
+			<li>BERN2</li>
+			<li>KAZU</li>
+			<li>REBEL</li>
+			<li>Groq</li>
+			<li>Hugging Face</li>
+			<li>LlamaIndex</li>
+			<li>LangChain</li>
+			<li>MELODI Presto</li>
+			<li>Unsloth</li>
+			<li>NetworkX</li>
+			<li>Pyvis</li>
+			
+			</ul>
+			
+			
+		</div>
+		<a href="#close-project-1" class="close cd-img-replace" tabindex="0">Close</a>
+	</div> <!-- .cd-project-content -->
+
+	<div class="cd-project-content" id="project-2">
 		<div>
 			<h1>Stock Prediction</h1>
 			<h2>Technical and sentiment analysis to predict the stock market.</h2>
@@ -149,7 +280,7 @@
 			
 			<p>The aim of the project is to investigate the performance of various machine learning models to predict stock market movements based on historical time series data and news article sentiment collected using APIs and web scraping. The basic principle would be to buy low and sell high, but the complexity arises in knowing when to buy and sell a stock.</p> 
 			<p>Four types of analysis exist to forecast the markets - fundamental, technical, quantitative and sentiment - each with its own underlying principles, tools, techniques and strategies, and it is likely that understanding the intuition of each and combining complementary approaches is more optimal than relying solely on one. Forecasting strategies will be developed based on predictions and backtested against a benchmark.</p>
-			<P>The FTSE 100 share index comprises the top 100 blue chip companies by market capitalisation listed on the London Stock Exchange, the primary stock exchange in the UK. As London’s benchmark index it is both representative of the UK’s stock market and an economic bellwether for the global economy given the international exposure of most of its constituents.  This study focuses on data from six of the top FTSE 100 companies (AstraZeneca, GlaxoSmithKline, BP, Royal Dutch Shell, HSBC and Unilever) representing a range of sectors including oil, pharmaceuticals, finance and consumer.</p>
+			<p>The FTSE 100 share index comprises the top 100 blue chip companies by market capitalisation listed on the London Stock Exchange, the primary stock exchange in the UK. As London’s benchmark index it is both representative of the UK’s stock market and an economic bellwether for the global economy given the international exposure of most of its constituents.  This study focuses on data from six of the top FTSE 100 companies (AstraZeneca, GlaxoSmithKline, BP, Royal Dutch Shell, HSBC and Unilever) representing a range of sectors including oil, pharmaceuticals, finance and consumer.</p>
 			
 
 			<h3>Exploratory Data Analysis</h3>
@@ -222,10 +353,10 @@
 			
 			
 		</div>
-		<a href="#close-project-1" class="close cd-img-replace" tabindex="0">Close</a>
+		<a href="#close-project-2" class="close cd-img-replace" tabindex="0">Close</a>
 	</div> <!-- .cd-project-content -->
 
-	<div class="cd-project-content" id="project-2">
+	<div class="cd-project-content" id="project-3">
 		<div>
 			<h1>Titanic</h1>
 			<h2>Binary classification to predict survival.</h2>
@@ -264,10 +395,10 @@
 			
 			
 		</div>
-		<a href="#close-project-2" class="close cd-img-replace" tabindex="0">Close</a>
+		<a href="#close-project-3" class="close cd-img-replace" tabindex="0">Close</a>
 	</div> <!-- .cd-project-content -->
 	
-		<div class="cd-project-content" id="project-3">
+		<div class="cd-project-content" id="project-4">
 		<div>
 			<h1>Boston Housing</h1>
 			<h2>Linear regression to predict house prices.</h2>
@@ -305,10 +436,10 @@
 			</ul>
 
 		</div>
-		<a href="#close-project-3" class="close cd-img-replace" tabindex="0">Close</a>
+		<a href="#close-project-4" class="close cd-img-replace" tabindex="0">Close</a>
 	</div> <!-- .cd-project-content -->
 	
-	<div class="cd-project-content" id="project-4">
+	<div class="cd-project-content" id="project-5">
 		<div>
 			<h1>Countries of the World</h1>
 			<h2>Exploratory Data Analysis of US Government data from the World Factbook on GDP ($ per capita), Literacy (%) and Phones (per 1000).</h2>
@@ -339,7 +470,7 @@
 			<li>Seaborn</li>
 			</ul>
 		</div>
-		<a href="#close-project-4" class="close cd-img-replace" tabindex="0">Close</a>
+		<a href="#close-project-5" class="close cd-img-replace" tabindex="0">Close</a>
 	</div> <!-- .cd-project-content -->
 	
 
